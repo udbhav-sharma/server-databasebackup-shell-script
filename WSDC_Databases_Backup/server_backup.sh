@@ -16,7 +16,7 @@ readonly mysqlpath
 #reading databases name from file
 while read db_name
 do
-	$mysqlpath -u $database_username -p$database_password $db_name > $temp_directory$db_name.sql
+	$mysqlpath -u $database_username --lock-tables=true -p$database_password $db_name > $temp_directory$db_name.sql
 	filestobezipped="$filestobezipped$db_name.sql "
 done < $databases_name
 

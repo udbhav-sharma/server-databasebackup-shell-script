@@ -18,7 +18,7 @@ date=`date +"%y-%m-%d"`
 #defining databasename with Date
 db_name="$date$db_name"
 
-$mysqlpath -A -u $database_username -p$database_password > $temp_directory$db_name.sql
+$mysqlpath -A --lock-tables=true -u $database_username -p$database_password > $temp_directory$db_name.sql
 filestobezipped="$db_name.sql"
 
 #displaying filename
