@@ -2,8 +2,8 @@
 
 # defining constants
 temp_directory="/tmp/"
-database_username="root"
-database_password="invictus"
+database_username=""
+database_password=""
 mysqlpath="/opt/lampp/bin/mysqldump"
 db_name="_full_database"
 

@@ -3,8 +3,8 @@
 # defining constants
 temp_directory="/tmp/"
 databases_name="/tmp/databases_name"
-database_username="root"
-database_password="invictus"
+database_username=""
+database_password=""
 mysqlpath="/opt/lampp/bin/mysqldump"
 
 readonly temp_directory
