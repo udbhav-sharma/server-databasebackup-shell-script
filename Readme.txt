@@ -16,3 +16,4 @@
    Whole database backup will have _full_database appended to it at last.
 9. For exiting from editor press ctrl-x then y then enter. crontab file is modified. 
 10. One very important thing u need to have ssh login at the remote system. U also need to have ssh login without password. Whenever u login with ssh u need to enter password but with this link details u dont have to do it. Checking will be done automatically.
+http://www.howtogeek.com/66776/how-to-remotely-copy-files-over-ssh-without-entering-your-password/
