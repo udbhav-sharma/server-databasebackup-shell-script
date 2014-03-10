@@ -15,3 +15,4 @@
 8. Backup files will be stored in their respective folders with name as their creation date.
    Whole database backup will have _full_database appended to it at last.
 9. For exiting from editor press ctrl-x then y then enter. crontab file is modified. 
+10. One very important thing u need to have ssh login at the remote system. U also need to have ssh login without password. Whenever u login with ssh u need to enter password but with this link details u dont have to do it. Checking will be done automatically.
